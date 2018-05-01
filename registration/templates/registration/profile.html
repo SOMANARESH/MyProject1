@@ -1,0 +1,9 @@
+{% extends 'registration/base.html' %}
+{% block title %}User Profile{% endblock %}
+{% block content %}
+
+Username: <b>{{ user.username }}</b><br>
+Email: <b>{{ user.email }}</b><br>
+
+<button><a href="/" style="text-align:center"> Home </a></button>
+{% endblock %}
